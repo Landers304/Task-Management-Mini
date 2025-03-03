@@ -22,3 +22,47 @@ This is a **Task Management Application** built using **Bootstrap**, designed to
 - **Accordion Component**: Organizes task categories or FAQs using Bootstrap Accordion for a space-efficient layout.
 - **Badge Component**: Displays task statuses, priorities, or tags with Bootstrap Badges for better organization.
 
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/task-management-app.git
+   ```
+
+2. Navigate to the project folder:
+   ```bash
+   cd task-management-app
+   ```
+
+3. Open `index.html` in your browser to view the app.
+
+## Technologies Used
+
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling and layout.
+- **Bootstrap 4/5**: For responsive design and pre-built components.
+- **JavaScript**: For basic form validation and interactive elements.
+
+## Project Structure
+
+task-management-app/
+├── index.html          # Home Page
+├── dashboard.html      # Task Dashboard Page
+├── task-details.html   # Task Details Page
+├── task-create.html    # Task Creation Page
+├── register.html       # Registration Page
+├── login.html          # Authentication Page
+├── css/
+│   └── styles.css      # Custom Styles
+├── js/
+│   └── scripts.js      # JavaScript (form validation, interactivity)
+└── img/
+    └── logo.png        # Logo and images
+
+## Usage Instructions
+
+1. **Register**: Go to the Register Page to create a new user account.
+2. **Log In**: Use the Authentication Page to log in with your credentials.
+3. **Manage Tasks**: Once logged in, you can create, edit, and view tasks in the Task Dashboard Page.
+4. **Task Details**: Click on any task in the dashboard to view its details and make edits.
+
